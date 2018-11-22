@@ -8,8 +8,8 @@ Common platform for tomographic reconstructions and image processing
 
 ### Lunarc Aurora
 
-- download ThinLinc client
-- ThinLinc or ssh to: aurora.lunarc.lu.se
+- [Download ThinLinc client](https://www.cendio.com/thinlinc/download)
+- ThinLinc or ssh to: `aurora.lunarc.lu.se`
 - [Lunarc Documentation](http://lunarc-documentation.readthedocs.io) 
 
 ### Useful hints
