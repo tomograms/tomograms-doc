@@ -10,13 +10,13 @@ Common platform for tomographic reconstructions and image processing
 
 - download ThinLinc client
 - ThinLinc or ssh to: aurora.lunarc.lu.se
-- Lunarc documentation: 
+- [Lunarc Documentation](http://lunarc-documentation.readthedocs.io) 
 
 ### Useful hints
 
 #### Create Ananconda enviroment
 
-The plan is to use Anaconda. Create a new enviroment (e.g. name=lhack-an3-5.2) in order to not interfere with your other software (only once at the beginning).
+The plan is to use Anaconda. Create a new enviroment (e.g. name=lhack-an3-5.2) in order to not interfere with your other software (only once at the hackathon beginning).
 
 ```bash
 module purge
@@ -26,7 +26,7 @@ module load Anaconda3/5.2.0
 conda create --override-channels --channel conda-forge -n lhack-an3-5.2 python=3.6 tifffile spyder
 ```
 
-# using environment including in an interactive node
+#### using environment in an interactive node
 
 ```bash
 # skip this line if you want to run directly in the frontend
@@ -41,7 +41,7 @@ source activate lhack-an3-5.2
 
 #### Getting exclusive node with jupyter-notebook
 
-instructions
+instructions come soon (Zdenek)
 
 ## References
 1. [Lunarc Documentation](http://lunarc-documentation.readthedocs.io)
