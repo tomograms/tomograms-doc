@@ -14,7 +14,7 @@ Common platform for tomographic reconstructions and image processing
 
 ### Useful hints
 
-#### Create Ananconda enviroment
+#### Creating Ananconda enviroment
 
 The plan is to use Anaconda. Create a new enviroment (e.g. name=lhack-an3-5.2) in order to not interfere with your other software (only once at the hackathon beginning).
 
@@ -22,16 +22,20 @@ The plan is to use Anaconda. Create a new enviroment (e.g. name=lhack-an3-5.2) i
 module purge
 module load Anaconda3/5.2.0
 
-# create new environment () with tifffile and spyder
-conda create --override-channels --channel conda-forge -n lhack-an3-5.2 python=3.6 tifffile spyder
+# create new environment (name=lhack-an3-5.2) with tifffile and spyder
+conda create --override-channels --channel conda-forge \
+             -n lhack-an3-5.2 python=3.6 tifffile spyder
 ```
 
-#### using environment in an interactive node
+#### Using Anaconda environment in an interactive node
 
 ```bash
 # skip this line if you want to run directly in the frontend
-# adjust the the project number "-A snic2017-1-485" and partition type "-p snic" in case
-interactive -p lu -A lu2018-2-48 -t 12:00:00 --exclusive
+# in case adjust project number (-A), partition type (-p) and requred memory (--mem)
+#    lu: -A lu2018-2-48 -p lu --mem=220GB
+#  snic: -A snic2017-1-485 -p snic --mem=50GB
+# maxiv: --mem=220GB
+interactive -A lu2018-2-48 -p lu --mem=220GB -t 12:00:00 --exclusive
 
 module purge
 module load Anaconda3/5.2.0
