@@ -85,7 +85,7 @@ ssh -L 8001:localhost:8888 au10
 http://localhost:8001/?token=56240c.....
 
 # You should have the notebook running in the node (au10) but the interface in the
-#browser in ThinLinc.
+# browser in ThinLinc.
 ```
 
 ## References
