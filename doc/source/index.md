@@ -34,8 +34,8 @@ conda create --override-channels --channel conda-forge \
 # in case adjust project number (-A), partition type (-p) and requred memory (--mem)
 #    lu: -A lu2018-2-48 -p lu --mem=220GB
 #  snic: -A snic2017-1-485 -p snic --mem=50GB
-# maxiv: --mem=220GB
-interactive -A lu2018-2-48 -p lu --mem=220GB -t 12:00:00 --exclusive
+# maxiv: --mem=210GB
+interactive -A lu2018-2-48 -p lu --mem=210GB -t 12:00:00 --exclusive
 
 module purge
 module load Anaconda3/5.2.0
@@ -45,7 +45,48 @@ source activate lhack-an3-5.2
 
 #### Getting exclusive node with jupyter-notebook
 
-instructions come soon (Zdenek)
+Lunarc is working on the implementation of a proper JupyterHub but it is not available
+for the time of hackathon. So we suggest to use a trick you can find on the Web, e.g.
+here: [Remote Access to IPython Notebooks via SSH](https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh).
+The trick is:
+1. allocating the node, getting its hostname and starting the jupyter notobook
+2. making a ssh tunnel from the frontend to the given node
+3. connecting to the jupyter notebook from a browser at the frontend
+
+```bash
+# 1) open a terminal and get the node:
+interactive -A lu2018-2-48 -p lu --mem=210GB -t 12:00:00 --exclusive
+
+# 2) type there "hostname" in order to get node name (e.g. au10)
+hostname
+
+# 3) get jupyter notebook from anaconda or e.g. from modules:
+
+module purge
+module load Anaconda3/5.2.0
+
+source activate lhack-an3-5.2
+
+jupyter-notebook
+
+# (you will get the link, e.g.: http://localhost:8888/?token=56240c.....)
+
+# 4) open ThinLinc to aurora.lunarc.lu.se or clu0-gn-0 (MAX IV)
+tlclient
+
+# 5) in ThinLinc, open terminal and type: "ssh -L 8001:localhost:8888 au10".
+# You are using info about the node (au10) and the port (8888) from the previous
+# steps no. 2-3 and you choose a new local port 8001 (your choice but must be free)
+ssh -L 8001:localhost:8888 au10
+
+# 6) in ThinLink, open browser and put there a link (keep localhost ip address!!! but
+# replace the port (8888) with the new one (8001)
+
+http://localhost:8001/?token=56240c.....
+
+# You should have the notebook running in the node (au10) but the interface in the
+#browser in ThinLinc.
+```
 
 ## References
 1. [Lunarc Documentation](http://lunarc-documentation.readthedocs.io)
