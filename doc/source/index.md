@@ -34,7 +34,7 @@ Here we try to provide scirpts for loading in data and handling them before you 
 1. One example how to load in a stack of tiff files and downscale it you find here:
 [Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
 
-#### Running Jupyter notebook on LUNARC
+#### Running Jupyter notebook on LUNARC for tweaking with small data
 
 1. on the front end if you just want to tweak a script on a small dataset ( e.g. 300 x 300 x 300 pixels):
 ```bash
@@ -46,23 +46,6 @@ jupyter notebook
 #if you have an example notebook you can load it directly by navigating to the directory where your script is. Easiest is if you navigate to the directory where your data is and put the python script there
 cd /nobackup/YourData
 jupyter notebook 'notebookName.ipynb'
-```
-
-
-#### Using Anaconda environment in an interactive node
-
-```bash
-# skip this line if you want to run directly in the frontend
-# in case adjust project number (-A), partition type (-p) and requred memory (--mem)
-#    lu: -A lu2018-2-48 -p lu --mem=220GB
-#  snic: -A snic2017-1-485 -p snic --mem=50GB
-# maxiv: --mem=210GB
-interactive -A lu2018-2-48 -p lu --mem=210GB -t 12:00:00 --exclusive
-
-module purge
-module load Anaconda3/5.2.0
-
-source activate lhack-an3-5.2
 ```
 
 #### Getting exclusive node with jupyter-notebook
@@ -108,6 +91,21 @@ http://localhost:8001/?token=56240c.....
 
 # You should have the notebook running in the node (au10) but the interface in the
 # browser in ThinLinc.
+```
+#### Using Anaconda environment in an interactive node
+
+```bash
+# skip this line if you want to run directly in the frontend
+# in case adjust project number (-A), partition type (-p) and requred memory (--mem)
+#    lu: -A lu2018-2-48 -p lu --mem=220GB
+#  snic: -A snic2017-1-485 -p snic --mem=50GB
+# maxiv: --mem=210GB
+interactive -A lu2018-2-48 -p lu --mem=210GB -t 12:00:00 --exclusive
+
+module purge
+module load Anaconda3/5.2.0
+
+source activate lhack-an3-5.2
 ```
 
 ## References
