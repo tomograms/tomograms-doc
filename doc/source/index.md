@@ -17,11 +17,17 @@ Common platform for tomographic reconstructions and image processing
 #### Imaging data visualisation 
 1. connect to LUNARC using ThinLinc 
 2. upload your data to your nobackup directory /lunarc/nobackup/users/'your user name'
+
 ImageJ
+
 Applications -> Lunarc Applications -> Medical Imaging -> fiji
+
 Tomviz
+
 Applications -> Lunarc Applications -> Volume Rendering -> Tomviz
+
 Slicer3D
+
 Applications -> Lunarc Applications -> Volume Rendering -> Slicer3D
 
 #### Creating Ananconda enviroment
