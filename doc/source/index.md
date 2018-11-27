@@ -6,7 +6,7 @@ Common platform for tomographic reconstructions and image processing
 
 ### Quantim hackathon (Nov 26-27, 2018)
 
-### Guide 
+### Mushroome Guide 
 
 ### Lunarc Aurora
 
