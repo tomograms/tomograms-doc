@@ -27,12 +27,11 @@ conda create --override-channels --channel conda-forge \
              -n lhack-an3-5.2 python=3.6 tifffile spyder
 ```
 
-#### Loading in data, cropping, downscaling
+#### Loading image data, cropping, downscaling
 
 Here we try to provide scirpts for loading in data and handling them before you start the analysis / visualisation
 
 1. One example how to load in a stack of tiff files and downscale it you find here:
-Kevin's im
 [Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
 
 
