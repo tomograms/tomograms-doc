@@ -43,7 +43,7 @@ module load Anaconda3/5.2.0
 source activate lhack-an3-5.2
 ```
 
-#### Running Jupyter notebook on LUNARC for tweaking with small data
+#### Running Jupyter notebook on LUNARC with small data (algorithm development)
 
 1. on the front end if you just want to tweak a script on a small dataset ( e.g. 300 x 300 x 300 pixels):
 ```bash
@@ -56,9 +56,19 @@ jupyter notebook
 cd /nobackup/YourData
 jupyter notebook 'notebookName.ipynb'
 ```
+#### Imaging data visualisation 
+1. connect to LUNARC using ThinLinc 
+2. upload your data to your nobackup directory /lunarc/nobackup/users/'your user name'
+ImageJ
+Applications -> Lunarc Applications -> Medical Imaging -> fiji
+Tomviz
+Applications -> Lunarc Applications -> Volume Rendering -> Tomviz
+Slicer3D
+Applications -> Lunarc Applications -> Volume Rendering -> Slicer3D
 
 #### Using SPYDER editor of Python scripts on LUNARC
-When connected to LUNARC by ThinLinc go to Lunarc Applications -> Python -> Spyder - Anaconda3
+1. connected to LUNARC using ThinLinc 
+2. go to Applications -> Lunarc Applications -> Python -> Spyder - Anaconda3
 
 #### Getting exclusive node with jupyter-notebook
 
