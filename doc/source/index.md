@@ -6,6 +6,8 @@ Common platform for tomographic reconstructions and image processing
 
 ### Quantim hackathon (Nov 26-27, 2018)
 
+### Guide 
+
 ### Lunarc Aurora
 
 - [Download ThinLinc client](https://www.cendio.com/thinlinc/download)
@@ -139,3 +141,5 @@ http://localhost:8001/?token=56240c.....
 - [QIM](http://qim.compute.dtu.dk/)
 - [Tomopedia](https://tomopedia.github.io/)
 - [Tomobank](https://tomobank.readthedocs.io)
+- [SPAM](https://ttk.gricad-pages.univ-grenoble-alpes.fr/spam/)
+
