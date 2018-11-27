@@ -27,12 +27,21 @@ conda create --override-channels --channel conda-forge \
              -n lhack-an3-5.2 python=3.6 tifffile spyder
 ```
 
-#### Loading image data, cropping, downscaling
+#### Using Anaconda environment in an interactive node
 
-Here we try to provide scirpts for loading in data and handling them before you start the analysis / visualisation
+```bash
+# skip this line if you want to run directly in the frontend
+# in case adjust project number (-A), partition type (-p) and requred memory (--mem)
+#    lu: -A lu2018-2-48 -p lu --mem=220GB
+#  snic: -A snic2017-1-485 -p snic --mem=50GB
+# maxiv: --mem=210GB
+interactive -A lu2018-2-48 -p lu --mem=210GB -t 12:00:00 --exclusive
 
-1. One example how to load in a stack of tiff files and downscale it you find here:
-[Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
+module purge
+module load Anaconda3/5.2.0
+
+source activate lhack-an3-5.2
+```
 
 #### Running Jupyter notebook on LUNARC for tweaking with small data
 
@@ -47,6 +56,9 @@ jupyter notebook
 cd /nobackup/YourData
 jupyter notebook 'notebookName.ipynb'
 ```
+
+#### Using SPYDER editor of Python scripts on LUNARC
+When connected to LUNARC by ThinLinc go to Lunarc Applications -> Python -> Spyder - Anaconda3
 
 #### Getting exclusive node with jupyter-notebook
 
@@ -92,21 +104,13 @@ http://localhost:8001/?token=56240c.....
 # You should have the notebook running in the node (au10) but the interface in the
 # browser in ThinLinc.
 ```
-#### Using Anaconda environment in an interactive node
+#### Loading image data, cropping, downscaling
 
-```bash
-# skip this line if you want to run directly in the frontend
-# in case adjust project number (-A), partition type (-p) and requred memory (--mem)
-#    lu: -A lu2018-2-48 -p lu --mem=220GB
-#  snic: -A snic2017-1-485 -p snic --mem=50GB
-# maxiv: --mem=210GB
-interactive -A lu2018-2-48 -p lu --mem=210GB -t 12:00:00 --exclusive
+Here we try to provide scirpts for loading in data and handling them before you start the analysis / visualisation
 
-module purge
-module load Anaconda3/5.2.0
+1. One example how to load in a stack of tiff files and downscale it you find here:
+[Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
 
-source activate lhack-an3-5.2
-```
 
 ## References
 1. [Lunarc Documentation](http://lunarc-documentation.readthedocs.io)
