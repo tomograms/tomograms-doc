@@ -14,6 +14,16 @@ Common platform for tomographic reconstructions and image processing
 
 ### Useful hints
 
+#### Imaging data visualisation 
+1. connect to LUNARC using ThinLinc 
+2. upload your data to your nobackup directory /lunarc/nobackup/users/'your user name'
+ImageJ
+Applications -> Lunarc Applications -> Medical Imaging -> fiji
+Tomviz
+Applications -> Lunarc Applications -> Volume Rendering -> Tomviz
+Slicer3D
+Applications -> Lunarc Applications -> Volume Rendering -> Slicer3D
+
 #### Creating Ananconda enviroment
 
 The plan is to use Anaconda. Create a new enviroment (e.g. name=lhack-an3-5.2) in order to not interfere with your other software (only once at the hackathon beginning).
@@ -56,15 +66,6 @@ jupyter notebook
 cd /nobackup/YourData
 jupyter notebook 'notebookName.ipynb'
 ```
-#### Imaging data visualisation 
-1. connect to LUNARC using ThinLinc 
-2. upload your data to your nobackup directory /lunarc/nobackup/users/'your user name'
-ImageJ
-Applications -> Lunarc Applications -> Medical Imaging -> fiji
-Tomviz
-Applications -> Lunarc Applications -> Volume Rendering -> Tomviz
-Slicer3D
-Applications -> Lunarc Applications -> Volume Rendering -> Slicer3D
 
 #### Using SPYDER editor of Python scripts on LUNARC
 1. connected to LUNARC using ThinLinc 
