@@ -70,6 +70,13 @@ Applications -> Lunarc Applications -> Volume Rendering -> Slicer3D
 1. connected to LUNARC using ThinLinc 
 2. go to Applications -> Lunarc Applications -> Python -> Spyder - Anaconda3
 
+#### Loading image data, cropping, downscaling
+
+Here we try to provide scirpts for loading in data and handling them before you start the analysis / visualisation
+
+1. One example how to load in a stack of tiff files and downscale it you find here:
+[Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
+
 #### Getting exclusive node with jupyter-notebook
 
 Lunarc is working on the implementation of a proper JupyterHub but it is not available
@@ -114,12 +121,7 @@ http://localhost:8001/?token=56240c.....
 # You should have the notebook running in the node (au10) but the interface in the
 # browser in ThinLinc.
 ```
-#### Loading image data, cropping, downscaling
 
-Here we try to provide scirpts for loading in data and handling them before you start the analysis / visualisation
-
-1. One example how to load in a stack of tiff files and downscale it you find here:
-[Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
 
 
 ## References
