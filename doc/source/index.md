@@ -78,6 +78,9 @@ Here we try to provide scirpts for loading in data and handling them before you 
 1. One example how to load in a stack of tiff files and downscale it you find here:
 [Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
 
+#### Image Quantification 
+1. see examples at  [QIM](http://qim.compute.dtu.dk/)
+
 #### Getting exclusive node with jupyter-notebook
 
 Lunarc is working on the implementation of a proper JupyterHub but it is not available
@@ -126,6 +129,7 @@ http://localhost:8001/?token=56240c.....
 
 
 ## References
-1. [Lunarc Documentation](http://lunarc-documentation.readthedocs.io)
-2. [Tomopedia](https://tomopedia.github.io/)
-3. [Tomobank](https://tomobank.readthedocs.io)
+- [Lunarc Documentation](http://lunarc-documentation.readthedocs.io)
+- [QIM](http://qim.compute.dtu.dk/)
+- [Tomopedia](https://tomopedia.github.io/)
+- [Tomobank](https://tomobank.readthedocs.io)
