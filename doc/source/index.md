@@ -34,6 +34,20 @@ Here we try to provide scirpts for loading in data and handling them before you 
 1. One example how to load in a stack of tiff files and downscale it you find here:
 [Kevin's kaggle script](https://www.kaggle.com/kmader/simple-loading-and-processing)
 
+#### Running Jupyter notebook on LUNARC
+
+1. on the front end if you just want to tweak a script on a small dataset ( e.g. 300 x 300 x 300 pixels):
+```bash
+module purge
+module load Anaconda3
+#start a new jupyter notebook:
+jupyter notebook
+
+#if you have an example notebook you can load it directly by navigating to the directory where your script is. Easiest is if you navigate to the directory where your data is and put the python script there
+cd /nobackup/YourData
+jupyter notebook 'notebookName.ipynb'
+```
+
 
 #### Using Anaconda environment in an interactive node
 
