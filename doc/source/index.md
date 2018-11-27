@@ -63,7 +63,7 @@ source activate lhack-an3-5.2
 
 #### Running Jupyter notebook on LUNARC with small data (algorithm development)
 
-1. on the front end if you just want to tweak a script on a small dataset ( e.g. 300 x 300 x 300 pixels):
+Do the following if you want to tweak a script on a small dataset ( e.g. 300 x 300 x 300 pixels):
 ```bash
 module purge
 module load Anaconda3
@@ -73,6 +73,8 @@ jupyter notebook
 #if you have an example notebook you can load it directly by navigating to the directory where your script is. Easiest is if you navigate to the directory where your data is and put the python script there
 cd /nobackup/YourData
 jupyter notebook 'notebookName.ipynb'
+
+#if you want for example to download a notebook from the QIM homepage for example, open it in the web browser in LUNARC and download the *.ipynb into your /nobackup directory. Then follow the abowe instructions in this paragraph
 ```
 
 #### Using SPYDER editor of Python scripts on LUNARC
