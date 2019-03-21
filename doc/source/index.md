@@ -25,7 +25,7 @@ module add Anaconda3/5.2.0
 # create new environment (name=lhack2-an3-5.2)
 #    with python3.6 tifffile, scikit-image, r, jupyter and spyder
 conda create --override-channels --channel conda-forge \
-             -n lhack2-an3-5.2 python=3.6 tifffile, scikit-image, jupyter, spyder
+             -n lhack2-an3-5.2 python=3.6 tifffile scikit-image r jupyter spyder
 ```
 
 ##### Using the environment
