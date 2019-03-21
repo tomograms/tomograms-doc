@@ -1,6 +1,6 @@
 # Tomograms
 
-Common platform for tomographic reconstructions and image processing
+Common software ecosystem for tomographic reconstructions and image processing
 
 ## Events
 
@@ -67,7 +67,7 @@ DICregularGrid --help
 ```
 
 Reference:
-- [spam documentation](https://ttk.gricad-pages.univ-grenoble-alpes.fr/spam/installation.html)
+- [spam documentation](https://ttk.gricad-pages.univ-grenoble-alpes.fr/spam/)
 
 
 ### Quantim hackathon (Nov 26-27, 2018)
