@@ -4,6 +4,20 @@ Common platform for tomographic reconstructions and image processing
 
 ## Events
 
+## Quantim hackathon (Mar 21-22, 2019)
+
+### scikit-image
+
+```bash
+source /lunarc/nobackup/users/zdemat/pub/envs/sourceme_for_skimage
+```
+
+### spam
+
+```bash
+source /lunarc/nobackup/users/zdemat/pub/envs/sourceme_for_spam
+```
+
 ### Quantim hackathon (Nov 26-27, 2018)
 
 ### Mushroome Guide 
