@@ -58,9 +58,17 @@ source activate lhack2-an3-5.2
 
 ### spam
 
+Only basic terminal option available.
+
 ```bash
 source /lunarc/nobackup/users/zdemat/pub/envs/sourceme_for_spam
+
+DICregularGrid --help
 ```
+
+Reference:
+- [spam documentation](https://ttk.gricad-pages.univ-grenoble-alpes.fr/spam/installation.html)
+
 
 ### Quantim hackathon (Nov 26-27, 2018)
 
