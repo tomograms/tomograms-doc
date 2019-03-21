@@ -34,7 +34,7 @@ conda create --override-channels --channel conda-forge \
 module purge
 module add Anaconda3/5.2.0
 
-source activate lhack2-an3-5.2
+conda activate lhack2-an3-5.2
 ```
 
 ##### Addding new software
@@ -53,7 +53,7 @@ source activate lhack2-an3-5.2
 
 ```bash
 (lhack2-an3-5.2) # close terminal or
-(lhack2-an3-5.2) source deactivate
+(lhack2-an3-5.2) conda deactivate
 ```
 
 ### spam
