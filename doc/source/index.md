@@ -52,7 +52,7 @@ source activate lhack2-an3-5.2
 ##### Deactivating environment
 
 ```bash
-(lhack2-an3-5.2) # close terminal
+(lhack2-an3-5.2) # close terminal or
 (lhack2-an3-5.2) source deactivate
 ```
 
