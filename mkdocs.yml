@@ -1,0 +1,18 @@
+site_name: Tomography
+theme: readthedocs
+#repo_url: https://github.com/example/repository/
+#copyright:
+
+pages:
+  - 'index.md'
+  - 'Cool section':
+    - 'cool_section/cool_page.md'
+    - 'cool_section/cooler_page.md'
+  - 'Lame section':
+    - 'lame_section/lame_page.md'
+  - 'stuff.md'
+
+# Meta data
+#site_description:
+#site_author:
+
