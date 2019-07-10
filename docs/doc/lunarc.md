@@ -1,4 +1,4 @@
-### Lunarc Aurora
+## Lunarc Aurora
 
 - [Download ThinLinc client](https://www.cendio.com/thinlinc/download)
 - ThinLinc or ssh to: `aurora.lunarc.lu.se`

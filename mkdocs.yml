@@ -1,12 +1,14 @@
 site_name: Tomography
-#repo_url: https://github.com/example/repository/
+repo_url: https://github.com/zdemat/tomograms.git
 #copyright:
 
-pages:
+nav:
   - 'index.md'
+  - 'Projects':
+    - 'projects/xphase.md'
   - 'Manuals and Guidelines':
-    - 'manuals/conda.md'
-    - 'manuals/lunarc.md'
+    - 'doc/conda.md'
+    - 'doc/lunarc.md'
   - 'Events':
     - 'events/quantim_mar2019.md'
     - 'events/quantim_nov2018.md'

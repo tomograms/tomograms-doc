@@ -1,8 +1,11 @@
-#### Creating Ananconda enviroment
+## Using Anaconda for Tomography & Imaging projects
 
-The plan is to use Anaconda. Create a new enviroment (e.g. name=lhack-an3-5.2) in order to not interfere with your other software (only once at the hackathon beginning).
+### Creating Ananconda enviroment
+
+The plan is to use Anaconda. Create a new enviroment (e.g. name=lhack-an3-5.2) in order to not interfere with your other software (only once at the event beginning). You can reuse the enveroment later or delete it.
 
 ```bash
+# load Anaconda module (optional, required on Aurora)
 module purge
 module load Anaconda3/5.2.0
 
@@ -11,7 +14,7 @@ conda create --override-channels --channel conda-forge \
              -n lhack-an3-5.2 python=3.6 tifffile spyder
 ```
 
-#### Using Anaconda environment in an interactive node
+### Using Anaconda environment in an interactive node
 
 ```bash
 # skip this line if you want to run directly in the frontend
@@ -27,4 +30,6 @@ module load Anaconda3/5.2.0
 
 source activate lhack2-an3-5.2
 ```
+
+Note: You have to use `source` cmd at Aurora. You can use `conda` cmd instead on your computer.
 
