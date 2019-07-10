@@ -1,18 +1,21 @@
 site_name: Tomography
-theme: readthedocs
 #repo_url: https://github.com/example/repository/
 #copyright:
 
 pages:
   - 'index.md'
-  - 'Cool section':
-    - 'cool_section/cool_page.md'
-    - 'cool_section/cooler_page.md'
-  - 'Lame section':
-    - 'lame_section/lame_page.md'
-  - 'stuff.md'
+  - 'Manuals and Guidelines':
+    - 'manuals/conda.md'
+    - 'manuals/lunarc.md'
+  - 'Events':
+    - 'events/quantim_mar2019.md'
+    - 'events/quantim_nov2018.md'
+  - 'references.md'
 
 # Meta data
 #site_description:
 #site_author:
+
+theme: readthedocs
+#markdown_extensions: [codehilite]
 
