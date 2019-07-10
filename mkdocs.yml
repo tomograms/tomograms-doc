@@ -1,5 +1,5 @@
 site_name: Tomography
-repo_url: https://github.com/zdemat/tomograms.git
+repo_url: https://github.com/zdemat/tomograms
 #copyright:
 
 nav:
@@ -12,7 +12,8 @@ nav:
   - 'Events':
     - 'events/quantim_mar2019.md'
     - 'events/quantim_nov2018.md'
-  - 'references.md'
+  - 'References':
+    - 'references.md'
 
 # Meta data
 #site_description:
