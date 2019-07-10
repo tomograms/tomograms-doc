@@ -3,17 +3,16 @@ repo_url: https://github.com/zdemat/tomograms
 #copyright:
 
 nav:
-  - 'index.md'
-  - 'Projects':
-    - 'projects/xphase.md'
-  - 'Manuals and Guidelines':
-    - 'doc/conda.md'
-    - 'doc/lunarc.md'
-  - 'Events':
-    - 'events/quantim_mar2019.md'
-    - 'events/quantim_nov2018.md'
-  - 'References':
-    - 'references.md'
+  - Home: index.md
+  - Projects:
+    - projects/xphase.md
+  - Manuals and Guidelines:
+    - doc/conda.md
+    - doc/lunarc.md
+  - Events:
+    - events/quantim_mar2019.md
+    - events/quantim_nov2018.md
+  - References: references.md
 
 # Meta data
 #site_description:
