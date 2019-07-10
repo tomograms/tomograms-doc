@@ -47,7 +47,7 @@ source activate lhack2-an3-5.2
 
 ```bash
 (lhack2-an3-5.2) # close terminal or
-(lhack2-an3-5.2) conda deactivate
+(lhack2-an3-5.2) source deactivate
 ```
 
 ### spam

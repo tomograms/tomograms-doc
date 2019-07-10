@@ -4,11 +4,11 @@
 - ThinLinc or ssh to: `aurora.lunarc.lu.se`
 - [Lunarc Documentation](http://lunarc-documentation.readthedocs.io) 
 
-### Useful hints
+### Hints
 
 #### Imaging data visualisation 
 1. connect to LUNARC using ThinLinc 
-2. upload your data to your nobackup directory /lunarc/nobackup/users/'your user name'
+2. upload your data to your nobackup directory `/lunarc/nobackup/users/'your user name'`
 
 ImageJ
 

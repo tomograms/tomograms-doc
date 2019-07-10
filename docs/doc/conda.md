@@ -21,7 +21,7 @@ conda create --override-channels --channel conda-forge \
 # in case adjust project number (-A), partition type (-p) and requred memory (--mem)
 #    lu: -A lu2018-2-48 -p lu --mem=220GB
 #  lvis: -A lvis2019-5-1 -p lvis --mem=56GB
-#  snic: -A snic2017-1-485 -p snic --mem=50GB
+#  snic: -A snic2017-1-485 -p snic --mem=50GB # (allocation project ended)
 # maxiv: --mem=210GB
 interactive -A lu2018-2-48 -p lu --mem=210GB -t 12:00:00 --exclusive
 
