@@ -5,13 +5,20 @@ repo_url: https://github.com/tomograms/tomograms-doc
 nav:
   - Home: index.md
   - Projects:
-    - projects/xphase.md
+    - pyPhase:
+        - 'About': projects/pyphase/about.md
+        - 'Install Directions': projects/pyphase/install.md
+        - 'Examples':
+          - 'Examples': projects/pyphase/examples.md
+          - ' Multidistance CFT phase retrieval': projects/pyphase/example1.md
+        - 'Structure': projects/pyphase/structure.md
+        - 'API': projects/pyphase/api.md
   - Manuals and Guidelines:
     - doc/conda.md
     - doc/lunarc.md
   - Events:
-    - Quantim Mar 2019: events/quantim_Mar_2019.md
-    - Quantim Nov 2018: events/quantim_Nov_2018.md
+    - Quantim Mar 2019: events/Quantim_Mar_2019.md
+    - Quantim Nov 2018: events/Quantim_Nov_2018.md
   - References: references.md
 
 # Meta data
