@@ -8,6 +8,7 @@ nav:
     - pyPhase:
         - 'About': projects/pyphase/about.md
         - 'Install Directions': projects/pyphase/install.md
+        - 'How to use': projects/pyphase/how_to_use.md
         - 'Examples':
           - 'Examples': projects/pyphase/examples.md
           - ' Multidistance CFT phase retrieval': projects/pyphase/example1.md

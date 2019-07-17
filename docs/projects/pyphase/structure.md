@@ -51,10 +51,11 @@ HoloSim
 
 
 #### Parameter File
-A parameter file, named `phase_parameter.yml` shall exist in the `your_project_path/name_` directory.
-The file has the following parameters (the values are shown as an example):
+A parameter file, named `pyphase_parameter.yml` shall exist in the `your_project_path/name_` directory.
+If the file does not exist, *dataset* will try to find the paramenters in the projects data.
+The The `pyphase_parameter.yml` file has the following parameters (the values are shown as an example):
 
-```
+```file
 axis_position: 256.5
 distances: [0, 0.18, 0.38, 0.918]
 dss: 145
@@ -70,6 +71,8 @@ reference_plane: 1
 scan_range: 360
 ```
 [\\]: # (Add comments in the code describing the paramenters)
+
+#### ===> TODO: Also need `name_1_.par` and `name_1_.vol` 
 
 #### Dark and Reference Images
 
