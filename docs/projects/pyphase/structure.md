@@ -1,6 +1,6 @@
 ## Data Formats and File Layout
 
-pyPhase can handle *hdm5*, *tiff* and *edf* files.
+pyPhase can handle `hdm5`, `tiff` and `edf` files.
 
 ### *Tiff* and *Edf* directory layout
 
@@ -18,9 +18,7 @@ The the phase retrieval's resulting files are output to this location.
 - Each directories `name_1_`,  `name_2_`, ...,  `name_N_` shall also 
 contain [dark](#referencedark-images) and [reference](#referencedark-images) image files necessary for flat-field correction.
 
->Note:
->
->Make sure that to use the same name when you instantiate DataSet objects 
+>***Note**: Make sure that to use the same name when you instantiate DataSet objects.* 
 
 [\\]: # (Links to examples and possible page on 'dataset'?)
 
@@ -52,8 +50,8 @@ HoloSim
 
 #### Parameter File
 A parameter file, named `pyphase_parameter.yml` shall exist in the `your_project_path/name_` directory.
-If the file does not exist, *dataset* will try to find the paramenters in the projects data.
-The The `pyphase_parameter.yml` file has the following parameters (the values are shown as an example):
+If the file does not exist, *pyPhase* will try to find the paramenters in the projects data.
+The `pyphase_parameter.yml` file has the following parameters (the values are shown as an example):
 
 ```file
 axis_position: 256.5
@@ -72,7 +70,7 @@ scan_range: 360
 ```
 [\\]: # (Add comments in the code describing the paramenters)
 
-#### ===> TODO: Also need `name_1_.par` and `name_1_.vol` 
+=> TODO: Also need `name_1_.par` and `name_1_.vol` ...
 
 #### Dark and Reference Images
 
@@ -83,7 +81,7 @@ Each directory  `name_1_`,  `name_2_`, ...,  `name_N_` shall contain
 
 Where #### ....
 
-### HdF5 files
+### Hdf5 files
 
 ...
  

@@ -5,4 +5,9 @@ You can see the examples on the links bellow, download the Jupyter Notebooks [he
 [\\]: # (update and review the links above)
 
 - [Multidistance CFT phase retrieval](example1.md)
+
 - More examples
+
+- An example using the command line intereface.
+
+- and yet more examples

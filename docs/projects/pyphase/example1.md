@@ -12,7 +12,7 @@ name = 'holosim'
 ~~~
 and set the path to the data
 ~~~python
-path = /data/staff/tomograms/HoloSim
+path = '/data/staff/tomograms/HoloSim'
 ~~~
 Make sure that the data folders and files have the right [format and structure](structure.md).
 Create a DataSet object
@@ -35,4 +35,4 @@ end = 3     #default = 0
 ~~~python
 retriever.ReconstructProjections(ds,start, end)
 ~~~
-For each projection, a file named `holosim_` with the retrieved phase and and file named `holosim_att_`, with the retrieved attenuation, is created in the `[path]/myProject_`
+For each projection, a file named `holosim_[version_predix]_000[n].edf` with the retrieved phase and and file named `holosim_att_`, with the retrieved attenuation, is created in the `[path]/myProject_`

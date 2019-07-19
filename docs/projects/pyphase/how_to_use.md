@@ -1,12 +1,12 @@
 ## How to use pyPhase
 
-pyPhase may be used either [within python](#in-python), or using a [terminal](#using-terminal).
+pyPhase may be used [in python](#in-python), or using a [terminal](#using-terminal).
 
 >***Note:***
 >*For the moment being pyPhase is supported for Unix only.*
 ### Using Terminal
 
-After [installing](install.md) you can run:
+After [installing](install.md) run:
 
 ```console 
 foo$bar:~$ pyphase -h
@@ -49,6 +49,23 @@ optional arguments:
   --update_beta         update current solution for beta with calculated
                         update
 ```
+#### Example
+
+This example shows how to use a *CTF algorithm* to retrieve phase and attenuation using multidistance data.
+
+
+Move into your project's directory:
+
+```console
+foo$bar:~$ cd /path-to-project/myProject
+foo$bar:~/myProject$
+```
+Make sure your data has the correct data [format/structure](sturcture.md). 
+
+```console
+foo$bar:~$pyphase --projections 0 10 --algotithem 'CTF' my_projct_name
+```
+[\\]: # (check syntax above. Will algorithm be loaded as a string?)
 
 ## In python
 
