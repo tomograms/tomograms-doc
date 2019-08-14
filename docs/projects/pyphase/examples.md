@@ -1,13 +1,18 @@
 # Examples
 This section contains examples of the usage of *pyPhase*. 
-You can see the examples on the links bellow, download the Jupyter Notebooks [here](http://url.here/ "Jupyter Notebooks") or run them on [JupyterHub.](http://url.here/ "Jupyter Notebooks")
+You can see the examples on the links bellow, download the Jupyter Notebooks [here](https://github.com/tomograms/tomograms-doc/tree/master/docs/projects/pyPhase/JupyterNotebooks "Jupyter Notebooks") or run them on [MAX IV JupyterHub.](jupyterhub.maxiv.lu.se "Jupyter Notebooks")
 
 [\\]: # (update and review the links above)
 
-- [Multidistance CFT phase retrieval](example1.md)
+### Jupyter notebooks
 
-- More examples
+- [CFT phase retrieval - simulation dataset (edf)](example1.md)
 
-- An example using the command line intereface.
+- [CFT phase retrieval - experimental dataset (tiff)](example2.md)
 
-- and yet more examples
+
+
+### Command Line Interface
+
+-  [CFT phase retrieval - simulation data](exampleCLI1.md)
+

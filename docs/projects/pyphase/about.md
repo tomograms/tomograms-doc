@@ -4,5 +4,5 @@
 [\\]: # (Add links, contacts)
 
 
->Note:
->*pyPhase* is still in a development phase.
+> <span style="color:red"> ***NOTE:*** 
+> ***pyPhase is under development is currently not available for download/install.*** </span>

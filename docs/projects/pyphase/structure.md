@@ -49,8 +49,8 @@ HoloSim
 
 
 #### Parameter File
-A parameter file, named `pyphase_parameter.yml` shall exist in the `your_project_path/name_` directory.
-If the file does not exist, *pyPhase* will try to find the paramenters in the projects data.
+A parameter file, named `pyphase_parameter.yml` can be to the `your_project_path/name_` directory.
+If the file does not exist, *pyPhase* will try to find the parameters in the projects `.info` and '.xml` files.
 The `pyphase_parameter.yml` file has the following parameters (the values are shown as an example):
 
 ```file
@@ -70,18 +70,19 @@ scan_range: 360
 ```
 [\\]: # (Add comments in the code describing the paramenters)
 
-=> TODO: Also need `name_1_.par` and `name_1_.vol` ...
+This file can be edited to change the any of the parameters. May be particularly useful when choosing the number of distances to use.
+
 
 #### Dark and Reference Images
 
 Each directory  `name_1_`,  `name_2_`, ...,  `name_N_` shall contain
 
-- A `dark.tif` (or `dark.edf`) containing a dark frame.
-- File `refHST####.tif`  (or `refHST.edf`) containing the reference (flat-field) image.
+- a `dark.tif` (or `dark.edf`) containing a dark frame
+- Files `refHST0000.tif`  (or `refHST0000.edf`) containing the reference (flat-field) images, one per 
 
-Where #### ....
+for flat field correction. The numbering of the re
 
-### Hdf5 files
 
-...
+
+
  

@@ -9,10 +9,10 @@ nav:
         - 'About': projects/pyphase/about.md
         - 'Install Directions': projects/pyphase/install.md
         - 'How to use': projects/pyphase/how_to_use.md
-        - 'Loading the data': projects/pyphase/loading.md
         - 'Examples':
           - 'Examples': projects/pyphase/examples.md
-          - ' Multidistance CFT phase retrieval': projects/pyphase/example1.md
+          - ' Multidistance CFT phase retrieval - simulation data': projects/pyphase/example1.md
+          - ' Multidistance CFT phase retrieval - experimental data': projects/pyphase/example2.md
         - 'Data layout': projects/pyphase/structure.md
         - 'API': projects/pyphase/api.md
   - Manuals and Guidelines:
