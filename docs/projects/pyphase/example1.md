@@ -15,7 +15,7 @@ from pyphase import utilities
 import matplotlib.pyplot as plt # for visualization purposes
 from skimage import io
 ~~~
-Define the projects name
+Define the project's name
 ~~~python
 name = 'holosim'
 ~~~
@@ -24,12 +24,9 @@ and set the path to the data
 path = '/data/staff/tomograms/HoloSim'
 ~~~
 
-
-
 Make sure that the data folders and files have the right [format and structure](structure.md).
 
 You can have a look at the data 
-
 
 ~~~python
 fig, ax = plt.subplots(nrows = 2, ncols = 2, figsize = (22, 15))
@@ -43,15 +40,11 @@ for i,row in enumerate(ax):
 
 ![Projections](images/projections.png)
 
-
 Create a DataSet object
 ~~~python
 ds = dataset.ESRFID19(path,name)
 ~~~
 [\\]: # (more about dataset here?)
-
-
-
 
 #### Phase retrieval
 
