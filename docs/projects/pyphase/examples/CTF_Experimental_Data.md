@@ -6,7 +6,7 @@ This examples covers the usage of pyPhase for phase retrieval using CTF on a rea
 The images are is in `tiff` format and are not preprocessed.  
 
 
-[Install](install.md) pyPhase. Then:
+[Install](../install.md) pyPhase. Then:
 ~~~python
 from pyphase import dataset
 from pyphase import phaseretrieval
@@ -28,7 +28,7 @@ path = '/data/staff/tomograms/safold'
 
 
 
-Make sure that the data folders and files have the right [format and structure](structure.md).
+Make sure that the data folders and files have the right [format and structure](../Data_Layout.md).
 
 You can have a look at the data 
 
@@ -47,7 +47,7 @@ for i,row in enumerate(ax):
 
 ![Projections](images/projs.png)
 
-pyPhase will look the [parameter](structure.md#parameterfile) in the projects information  files.
+pyPhase will look the [parameter](../Data_Layout.md#parameterfile) in the projects information  files.
 
 By default, it will include all the projections' distances found, which will be used for the phase retrieval.
 If you wish to use only some of the distances you may edit the file and change it according to your specifications.
@@ -111,7 +111,7 @@ At this stage we can create our CTF retriever object with
 alpha = 1e-8
 retriever = phaseretrieval.CTF(ds, alpha)
 ~~~
-*Refere to the [API](api.md) for other phase retrieval algorithms available in pyPhase.*
+*Refere to the [API](../api.md) for other phase retrieval algorithms available in pyPhase.*
 
 Choose the range of projections to which to apply the phase retrieval
 

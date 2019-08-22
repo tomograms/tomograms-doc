@@ -9,7 +9,7 @@ Move into your project's directory:
 ```console
 $ cd /path-to-project/myProject
 ```
-Make sure your data has the correct data [format/structure](sturcture.md). 
+Make sure your data has the correct data [format/structure](../Data_Layout.md). 
 
 Run 
 ```console
@@ -19,7 +19,7 @@ The parameter ***--projections*** receives two inputs, namely the number of the 
 
 In ***--algorithm*** you select the the algorithm used for retrieving the phase.
 
-Finally the have the ***projects name***. Observe that it must match the [name of the file's and directories root name](sturcture.md).
+Finally the have the ***projects name***. Observe that it must match the [name of the file's and directories root name](../Data_Layout.md).
 The output is written into files locates in the folder named *'my_project_name_'*.
 
 [\\]: # (check syntax above. Will algorithm be loaded as a string?)

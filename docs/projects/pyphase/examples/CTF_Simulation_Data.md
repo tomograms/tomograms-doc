@@ -6,7 +6,7 @@ This notebook runs an example of multi-distance CTF phase retrieval on simulatio
 
 #### Dataset setup
 
-[Install](install.md) pyPhase. Then:
+[Install](../install.md) pyPhase. Then:
 ~~~python
 from pyphase import dataset
 from pyphase import phaseretrieval
@@ -24,7 +24,7 @@ and set the path to the data
 path = '/data/staff/tomograms/HoloSim'
 ~~~
 
-Make sure that the data folders and files have the right [format and structure](structure.md).
+Make sure that the data folders and files have the right [format and structure](../Data_Layout.md).
 
 You can have a look at the data 
 
