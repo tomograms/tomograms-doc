@@ -12,8 +12,8 @@ nav:
       - Examples: projects/pyphase/examples.md
       - Data layout: projects/pyphase/Data_Layout.md
       - API: projects/pyphase/api.md
-  - Mixed-Scale Dense Networks:
-    - projects/Mixed-Scale_Dense_Networks/Mixed-Scale_Dense_Networks.md     
+  #- Mixed-Scale Dense Networks:
+  #  - projects/Mixed-Scale_Dense_Networks/Mixed-Scale_Dense_Networks.md     
   - Manuals and Guidelines:
     - doc/conda.md
     - doc/lunarc.md
