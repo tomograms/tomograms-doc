@@ -6,15 +6,15 @@ nav:
   - Home: index.md
   - Projects:
     - pyPhase:
-        - 'About': projects/pyphase/about.md
-        - 'Install Directions': projects/pyphase/install.md
-        - 'How to use': projects/pyphase/how_to_use.md
-        - 'Examples':
-          - 'Examples': projects/pyphase/examples.md
-          - 'hidden': projects/pyphase/example1.md
-          - 'Multidistance CFT phase retrieval - experimental data': projects/pyphase/example2.md
-        - 'Data layout': projects/pyphase/structure.md
-        - 'API': projects/pyphase/api.md
+        - About: projects/pyphase/about.md
+        - Install Directions: projects/pyphase/install.md
+        - How to use: projects/pyphase/how_to_use.md
+        - Examples:
+          - Examples: projects/pyphase/examples.md
+          - Multidistance CFT phase retrieval - simulation data: projects/pyphase/example1.md
+          - Multidistance CFT phase retrieval - experimental data: projects/pyphase/example2.md
+        - Data layout: projects/pyphase/structure.md
+        - API: projects/pyphase/api.md
   - Manuals and Guidelines:
     - doc/conda.md
     - doc/lunarc.md
