@@ -5,9 +5,37 @@ pyPhase may be used [in python](#in-python), or using a [terminal](#using-termin
 >***Note:***
 >*For the moment being pyPhase is supported for Linux only.*
 
-## In python
+## Conda and source code 
 
-Make sure pyPhase is [Installed](install.md). Import it into your python script with:
+Create a new Conda environment 
+
+```bash
+# load Anaconda module (optional, required on Aurora)
+module purge
+module load Anaconda3/5.2.0
+
+# create new environment
+conda create -n myenv python=3.6 numpy tifffile
+
+# activate the enviornment
+source activate myenv
+```
+Make sure to had the code's path to your system. This can be done in python with
+
+~~~ python
+import os
+import sys
+
+pyphase_path = os.path.abspath('~/path/to/pyphase')
+sys.path.append(pyphase_path)
+~~~  
+
+or in the terminal
+```bash
+PATH=$PATH:~/path/to/pyphase
+```
+ 
+Import pyphase into your python script with:
 ~~~python
 import pyphase
 ~~~
