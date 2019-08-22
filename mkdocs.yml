@@ -6,15 +6,16 @@ nav:
   - Home: index.md
   - Projects:
     - pyPhase:
-        - About: projects/pyphase/about.md
-        - Install Directions: projects/pyphase/install.md
-        - How to use: projects/pyphase/how_to_use.md
-        - Examples:
-          - Examples: projects/pyphase/examples.md
-#          - Multidistance CFT phase retrieval - simulation data: projects/pyphase/CTF_Simulation_Data.md
-#          - Multidistance CFT phase retrieval - experimental data: projects/pyphase/CTF_Experimental_Data.md
-        - Data layout: projects/pyphase/Data_Layout.md
-        - API: projects/pyphase/api.md
+      - About: projects/pyphase/about.md
+      - Install Directions: projects/pyphase/install.md
+      - How to use: projects/pyphase/how_to_use.md
+      - Examples: projects/pyphase/examples.md
+#       - Multidistance CFT phase retrieval - simulation data: projects/pyphase/CTF_Simulation_Data.md
+#       - Multidistance CFT phase retrieval - experimental data: projects/pyphase/CTF_Experimental_Data.md
+      - Data layout: projects/pyphase/Data_Layout.md
+      - API: projects/pyphase/api.md
+    - Mixed-Scale Dense Networks:   
+       
   - Manuals and Guidelines:
     - doc/conda.md
     - doc/lunarc.md
