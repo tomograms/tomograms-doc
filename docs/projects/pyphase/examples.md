@@ -6,13 +6,13 @@ You can see the examples on the links bellow, download the Jupyter Notebooks [he
 
 ### Jupyter notebooks
 
-- [CFT phase retrieval - simulation dataset (edf)](example1.md)
+- [CFT phase retrieval - simulation dataset (edf)](examples/CTF_Simulation_Data.md)
 
-- [CFT phase retrieval - experimental dataset (tiff)](example2.md)
+- [CFT phase retrieval - experimental dataset (tiff)](examples/CTF_Experimental_Data.md)
 
 
 
 ### Command Line Interface
 
--  [CFT phase retrieval - simulation data](exampleCLI1.md)
+-  [CFT phase retrieval - simulation data](examples/CTF_on_CLI.md)
 
