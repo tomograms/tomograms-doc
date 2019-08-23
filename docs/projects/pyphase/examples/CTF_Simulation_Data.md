@@ -4,16 +4,51 @@ This notebook runs an example of multi-distance CTF phase retrieval on simulatio
 
 [\\]: # (FIX THE paths in the examples)
 
+
+Multi-distance CTF Phase Retrieval
+
+This notebook runs an example of multi-distance CTF phase retrieval on simulation data in edf format.
+
+NOTE: If using unrealeased version of pyPhase, have the source files in the python projects directory and change pyphase inmport to import.
+
+Creating a Conda enviornment for this notebook.
+
+```bash
+conda create --name pyPhaseEnv --channel conda-forge python=3.7 numpy yaml sortedcontainers
+source activate pyPhaseEnv
+```
+
+
+
+Make sure pyPhase source code is in the systems path so that the modules can be imported.
+
+~~~python
+import os
+import sys
+
+pyphase_path_1 = os.path.abspath('/home/diofig/tomograms/users/diogo/Python/latest/pyPhase/')
+pyphase_path_2 = os.path.abspath('/home/diofig/tomograms/users/diogo/Python/latest/')
+sys.path.append(pyphase_path_1)
+sys.path.append(pyphase_path_2)
+~~~
+
+
+
+
+
+
+
+
+
 #### Dataset setup
 
 [Install](../install.md) pyPhase. Then:
 ~~~python
-from pyphase import dataset
-from pyphase import phaseretrieval
-from pyphase import utilities 
+from pyPhase import dataset
+from pyPhase import phaseretrieval
 
-import matplotlib.pyplot as plt # for visualization purposes
-from skimage import io
+from EdfFile import EdfFile # for visualization
+import matplotlib.pyplot as plt
 ~~~
 Define the project's name
 ~~~python
@@ -21,7 +56,7 @@ name = 'holosim'
 ~~~
 and set the path to the data
 ~~~python
-path = '/data/staff/tomograms/HoloSim'
+path = '/data/staff/tomograms/users/diogo/Data/HoloSim'
 ~~~
 
 Make sure that the data folders and files have the right [format and structure](../Data_Layout.md).
