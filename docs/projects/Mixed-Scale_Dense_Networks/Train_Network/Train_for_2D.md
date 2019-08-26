@@ -1,4 +1,4 @@
-## Training MS-DN for singe or multidistance phase retrieval
+## Training MS-DN for single or multidistance phase retrieval
 
 ~~~python
 # Import code
@@ -15,7 +15,8 @@ the GPU (set gpu=False to use CPU).
 > **In the parameter `num_of_inputs_channels`
 > add the number of distances used for phase retrieval.**
 
-> ***When using multi channels input, the images shall be stacked in the same tifffile.***
+> ***When using multi channels input, the images shall be stacked in the same tifffile. 
+A script to stack projections of different distances can be found [here]***
 
 
 

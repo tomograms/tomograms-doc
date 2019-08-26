@@ -26,7 +26,7 @@ N = 1024
 
 Create the directories to where the files will be saved.
 ~~~python
-s.makedirs('../projected_phantoms',exist_ok=True)
+os.makedirs('../projected_phantoms',exist_ok=True)
 os.makedirs('../projected_phantoms/train',exist_ok=True)
 os.makedirs('../projected_phantoms/validate',exist_ok=True)
 os.makedirs('../projected_phantoms/test',exist_ok=True)
