@@ -14,6 +14,10 @@ nav:
         - API: projects/pyphase/api.md
   #- Mixed-Scale Dense Networks:
   #  - projects/Mixed-Scale_Dense_Networks/Mixed-Scale_Dense_Networks.md     
+    - rectv:
+        - About: projects/rectv/about.md
+        - Setup: projects/rectv/setup.md
+        - How to use: projects/rectv/how_to_use.md
   - Manuals and Guidelines:
     - doc/conda.md
     - doc/lunarc.md
