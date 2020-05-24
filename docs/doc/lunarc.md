@@ -98,12 +98,12 @@ http://localhost:8001/?token=56240c.....
 ```
 ### MAX IV modules at LUNARC
 
-Modules with MAX IV software like `pymca`, `pyFAI` or NanoMAX `scanViewer` can be loaded on `aurora` as below.
+Modules with software used at MAX IV like `pymca`, `pyFAI` or NanoMAX `scanViewer` can be loaded on `aurora` as below.
 
 ```bash
 # get extended MAX IV modules
 module use /lunarc/nobackup/projects/snic2020-12-4/pub/sw/modules/maxiv
-# laod NanoMAX analysis utilities
+# load NanoMAX analysis utilities
 module add foss/2018b Python/3.6.6/nmutils/0.3.0
 # start NanoMAX scanViewer
 scanViewer
