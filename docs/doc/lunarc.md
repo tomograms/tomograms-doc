@@ -96,10 +96,15 @@ http://localhost:8001/?token=56240c.....
 # You should have the notebook running in the node (au10) but the interface in the
 # browser in ThinLinc.
 ```
-### MAX IV module at LUNARC
+### MAX IV modules at LUNARC
 
-Modules with MAX IV software like NanoMAX `scanViewer`, `pymca` or `pyFAI` can be loaded as below.
+Modules with MAX IV software like `pymca`, `pyFAI` or NanoMAX `scanViewer` can be loaded on `aurora` as below.
 
 ```bash
-asdasd
+# get extended MAX IV modules
+module use /lunarc/nobackup/projects/snic2020-12-4/pub/sw/modules/maxiv
+# laod NanoMAX analysis utilities
+module add foss/2018b Python/3.6.6/nmutils/0.3.0
+# start NanoMAX scanViewer
+scanViewer
 ```
