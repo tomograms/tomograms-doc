@@ -1,5 +1,6 @@
 ## References
 - [Lunarc Documentation](http://lunarc-documentation.readthedocs.io)
+- [SNIC Acknowledgement](https://www.snic.se/allocations/apply4access/)
 - [QIM](http://qim.compute.dtu.dk/)
 - [Tomopedia](https://tomopedia.github.io/)
 - [Tomobank](https://tomobank.readthedocs.io)
