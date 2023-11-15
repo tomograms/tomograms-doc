@@ -1,6 +1,6 @@
 # tomograms
 
-Tomograms project aims for building a common software platform for tomographic reconstructions and image processing around MAX IV synchrotron in Lund.
+Tomograms project aims for supporting a common software platform for tomographic reconstructions and image processing around MAX IV synchrotron in Lund.
 
 This project itself does not aim to contain any unified code but rather example scripts, data and imaging problems.
 
